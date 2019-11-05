@@ -57,7 +57,7 @@ ul {
 
   #rechts {
     display:flex;
-    justify-content: flex-end;;
+    justify-content: flex-end;
     align-items: center;
   }
   
@@ -67,7 +67,7 @@ ul {
     align-items: flex-end;
   }
 body {
-  background-image: url("achtergrond2.jpg");
+  background-image: url("../images/achtergrond2.jpg");
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-size:100%;
@@ -83,4 +83,29 @@ body {
 }
 .footer {
   display:block;
+}
+
+#info2{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+}
+
+#links2,#midden2, #rechts2 {
+  width: 33%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#rechts2 {
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+#midden2{
+
+  
 }
