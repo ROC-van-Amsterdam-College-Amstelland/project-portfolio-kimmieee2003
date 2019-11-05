@@ -101,8 +101,15 @@ body {
 
 #rechts2 {
   display:flex;
-  justify-content:flex-end;
-  align-items: center;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#links2 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #midden2{
@@ -112,19 +119,22 @@ body {
 
 #fotografeer1{
 width: 300px;
-
+height: 200px;
 }
 
 #fotografeer2{
 width: 300px;
+height: 200px;
 }
 
 #muziek1{
 width: 300px;
+height: 200px;
 }
 
 #muziek2{
   width: 300px;
+  height: 200px;
 }
 
 #paard3{
