@@ -139,8 +139,56 @@ height: 200px;
 
 #paard3{
   width: 300px;
+  
 }
 
 #paard4{
   width: 300px;
+
 }
+
+a{
+  color: #111;
+  text-decoration: none;
+}
+
+#links3,#midden3, #rechts3 {
+  width: 33%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#rechts3 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#links3 {
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#vlag1{
+  width: 300px;
+  height: 200px;
+}
+
+#vlag2{
+  width: 300px;
+  height: 200px;
+}
+
+#mondriaan{
+width: 300px;
+height: 250px;
+}
+
+#mondriaan2{
+width: 300px;
+height: 250px;
+}
+
+  
