@@ -17,3 +17,7 @@ function verander3(){
 function displayResult() {
     document.getElementById("myHeader").innerHTML = "Have a nice day!";
 }
+
+datum = new Date()
+document.getElementById("vandaag").innerHTML = datum.getDate() + "-" + (datum.getMonth()+1)
++ "-" + datum.getFullYear();
