@@ -96,7 +96,7 @@ body {
 #links2,#midden2, #rechts2 {
   width: 33%;
   height: 100%;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 #rechts2 {
@@ -155,7 +155,7 @@ a{
 #links3,#midden3, #rechts3 {
   width: 33%;
   height: 100%;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 #links3 {
@@ -196,7 +196,7 @@ height: 250px;
 #links4,#midden4, #rechts4 {
   width: 33%;
   height: 100%;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 #java{
