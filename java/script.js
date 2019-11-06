@@ -14,8 +14,16 @@ function verander3(){
     document.getElementById("ikzelf2").style.display="block";
 }
 
-function displayResult() {
-    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+function displayLike() {
+    document.getElementById("like").style.backgroundColor = "green";
+    document.getElementById("dislike").style.backgroundColor = "grey";
+    
+}
+
+function displayDislike() {
+    document.getElementById("like").style.backgroundColor = "grey";
+    document.getElementById("dislike").style.backgroundColor = "red";
+    
 }
 
 datum = new Date()

@@ -222,7 +222,17 @@ height: 250px;
 }
 
 #like {
-  background-color: #4CAF50; /* Green */
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#dislike {
+  background-color: grey; 
   border: none;
   color: white;
   padding: 15px 32px;
