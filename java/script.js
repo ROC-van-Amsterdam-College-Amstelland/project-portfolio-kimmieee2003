@@ -13,3 +13,7 @@ function verander3(){
     document.getElementById("paard2").style.display="none";
     document.getElementById("ikzelf2").style.display="block";
 }
+
+function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
